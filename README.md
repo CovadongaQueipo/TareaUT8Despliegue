@@ -2,7 +2,7 @@
 
 ### *Autor:*
 ---
-##### Covadonga Queipo Sánchez
+![foto](https://github.com/CovadongaQueipo/TareaUT8Despliegue/blob/master/Imagenes/CovadongaQS.png) Covadonga Queipo Sánchez
 
 ### *Biografía:*
 ---
