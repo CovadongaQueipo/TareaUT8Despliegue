@@ -1,11 +1,11 @@
 # Tarea unidad 8 de Despliegue - DAW Distancia Cifp Avilés
 
-### *Autor:*
----
-![foto](https://github.com/CovadongaQueipo/TareaUT8Despliegue/blob/master/Imagenes/CovadongaQS.png) Covadonga Queipo Sánchez
+## *Autor:*
 
-### *Biografía:*
----
+![foto](/Imagenes/CovadongaQS.png)    Covadonga Queipo Sánchez
+   
+## *Biografía:*
+
 >         Nacida en Bruselas en el año 59 de lengua francesa y de descendencia asturiana, realiza sus estudios
 >     de secundaria y un grado medio de Empresariales en esta ciudad. Ávida de conocer mundo, a principios de los años 80 
 >     emprende viaje por varios países para finalmente establecerse en Asturias.
@@ -20,38 +20,37 @@
 >         Ingresa como auxiliar administrativo a mediados del año 2000 en el Ayuntamiento de Avilés hasta finales de 2018 
 >     obtiene entre tanto el acceso a la universidad.
 >
->         En la actualidad cursa Desarrollo de aplicaciones Web a distancia en el Cifp de Avilés.
+>         En la actualidad cursa un ciclo formativo de grado superior de Desarrollo de aplicaciones Web a distancia en el Cifp de Avilés.
+   
+## *Finalidad de la aplicación MainPrimaMetodos:*
 
-
-### *Finalidad de la aplicación MainPrimaMetodos:*
----
 Esta aplicación halla la prima correspondiente a cada empleado en función de su categoría y años de antigüedad.
 >
+   
+## *Tecnologías implementadas en esta tarea:*
 
-### *Tecnologías implementadas en esta tarea:*
----
 * **Lenguaje de programación**
      * Java
 * **Lenguaje de marcado**
      * HTML
      * Markdown (este Readme)
 * **Sistema de control de versiones**
-     * dvcs git - GitHub
+     * DVCS git - GitHub
 * **Entorno de desarrollo integrado**
      * Eclipse
 >
+   
+## *Listado de contenido de este repositorio:*
 
-### *Listado de contenido de este repositorio:*
----
 1.	**Directorios:**
     -	.git – contiene las bases de datos de objetos y metadatos, archivos fuente de la aplicación con todas sus versiones.
-        1. *Directorios*
+        a. *Directorios*
             - branches - Directorio 
             - hooks
             - logs
             - objects
             - refs
-        2. *Ficheros*
+        b. *Ficheros*
             - COMMIT_EDITMSG
             - config
             - HEAD
@@ -65,9 +64,9 @@ Esta aplicación halla la prima correspondiente a cada empleado en función de s
     - .classpath
     - .gitignore
     - .project
+   
+## *Finalidad del repositorio:*
 
-### *Finalidad del repositorio:*
----
 La finalidad de este repositorio es el control de las distintas versiones que se haga de la tarea 8 encomendada, permite:
 >
 *	realizar cambios manteniendo un histórico de estos cambios,
@@ -82,10 +81,21 @@ al código entre otras funciones colaborativas.
 
 ---
 
-|*Bibliografía*                       |*Webgrafía*                                |
-|:-------------------------------------|:------------------------------------------|
-||[Java con GitHub - PildorasInformáticas](https://youtu.be/TpB6rk7fKvQ)|
-||![logo](https://raw.githubusercontent.com/adam-p/markdown-here/master/src/common/images/icon48.png) [markdown.es](https://markdown.es/) |
-||[Curso práctico Markdown](https://www.youtube.com/watch?v=oxaH9CFpeEE)|                                            
-|||
+## *Webgrafía:*
+
+#### Módulo de Despliegue de Desarrollo de Aplicaciones Web - Cifp Avilés
+* [Documentación y sistemas de control de versiones](https://fpdistancia.educastur.es/course/view.php?id=310#section-9)
+* [Sistemas de control de versiones](https://fpdistancia.educastur.es/course/view.php?id=310#section-6)
+#### Otros
+|Eclipse - GitHub|Javadoc|Markdown|
+|----------------|-------|--------|
+|[Eclipse y repositorios Git-Pildoras Informática](https://www.youtube.com/watch?v=TpB6rk7fKvQ)|[Generar documentación Javadoc-Pildoras Informáticas](https://www.youtube.com/watch?v=hbmu-FH-BJY&list=PLOaH9zmBWl9__C2WtdiLwlKb3ll2-M9Hs&index=7)|[Markdown.es](https://markdown.es/)|
+||[Como utilizar Javadoc-Disco duro de roer](https://www.discoduroderoer.es/como-utilizar-javadoc/)|[Curso práctico Markdown](https://www.youtube.com/watch?v=oxaH9CFpeEE)|
+|||[Guía rápida Markdown-Tutorial Markdown](https://tutorialmarkdown.com/guia)|
+
+
+
+
+
+
 
