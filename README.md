@@ -43,27 +43,30 @@ Esta aplicación halla la prima correspondiente a cada empleado en función de s
 ## *Listado de contenido de este repositorio:*
 
 1.	**Directorios:**
-    -	.git – contiene las bases de datos de objetos y metadatos, archivos fuente de la aplicación con todas sus versiones.
-        a. *Directorios*
-            - branches - Directorio 
+    -	.git contiene las bases de datos de objetos y metadatos, archivos fuente de la aplicación con todas sus versiones.
+        1. *Directorios*
+            - branches
             - hooks
             - logs
-            - objects
+            - objects contiene información del repositorio en sí, datos de los objetos GIT, contenido de los archivos que se han insertado, commits, ...
             - refs
-        b. *Ficheros*
+        2. *Ficheros*
             - COMMIT_EDITMSG
             - config
+            - FETCH_HEAD
             - HEAD
             - index
     -	.settings
     -	bin
     -	doc – contiene los directorios y archivos generados por Javadoc. 
-    -	src - contiene los paquetes y ficheros .java
+    -	Imagenes - contiene la imagen que se visualiza en este Readme.
+    -	src - contiene el paquete nominas  en el que se encuentra la clase PrimaMainMetodos.java
 
 2.	**Ficheros:**
     - .classpath
     - .gitignore
     - .project
+    - README.md
    
 ## *Finalidad del repositorio:*
 
