@@ -9,8 +9,8 @@ import java.util.Scanner;
  * categoría y meses de antigüedad.</u></H2>
  * 
  * @author Covadonga Queipo Sánchez
+ * @since abril 2022
  * @version v.1 24/04/2022
- * {@docRoot}
  */
 public class PrimaMainMetodos {
 
@@ -55,17 +55,17 @@ public class PrimaMainMetodos {
 		 * Variable de tipo caracter que identificará una respuesta.
 		 */
 		char respuesta;
-
+		//Bucle do while que repite el procedimiento si la respuesta es afirmativa 'S' 
 		do {
 			System.out.println("\nDATOS  EMPLEADO/A");
-			numEmple = leerNumEmple();
-			nomEmple = leerNomEmple();
-			meses = leerMeses();
-			esDirectivo = leerEsDirectivo();
-			System.out.println("\n\tLe corresponde la prima " + hallarPrima(esDirectivo, meses));
+			numEmple = leerNumEmple(); //Lee y asigna el número de empleado
+			nomEmple = leerNomEmple(); //Lee y asigna el nombre del empleado
+			meses = leerMeses(); //Lee y asigna los meses de antigüedad
+			esDirectivo = leerEsDirectivo(); //Lee y asigna si es directivo o no
+			System.out.println("\n\tLe corresponde la prima " + hallarPrima(esDirectivo, meses)); //Imprime la prima correspondiente al empleado
 
 			System.out.println("\n¿CALCULAR MAS PRIMAS? (S/N): ");
-			respuesta = teclado.nextLine().toUpperCase().charAt(0);
+			respuesta = teclado.nextLine().toUpperCase().charAt(0); //Asignación de la respuesta dada por teclado
 		} while (respuesta == 'S');
 	}
 
@@ -86,8 +86,8 @@ public class PrimaMainMetodos {
 	 * 		</li>
 	 * 	</ul>
 	 * 
-	 * @param esDirectivo recibe el valor de retorno del método leerEsDirectivo(), + o - .
-	 * @param meses       recibe el valor de retorno del método leerMeses()), meses de antigüedad.
+	 * @param esDirectivo de tipo char, recibe el valor de retorno del método leerEsDirectivo(), + o - .
+	 * @param meses       de tipo entero, recibe el valor de retorno del método leerMeses()), meses de antigüedad.
 	 * @return 			  Devuelve el valor de la prima correspondiente.
 	 */
 	public static String hallarPrima(char esDirectivo, int meses) {
@@ -114,9 +114,10 @@ public class PrimaMainMetodos {
 		 * Variable de tipo entero que dentificará el número del empleado.
 		 */
 		int numEmple;
+		//Bucle que repetirá el procedimiento si el número introducido por teclado no está entre 100 y 999, ambos inclusives.
 		do {
 			System.out.println("NÚMERO [100-999]: ");
-			numEmple = teclado.nextInt();
+			numEmple = teclado.nextInt(); //Asignación del número de empleado introducido por teclado.
 		} while (numEmple < 100 || numEmple > 999);
 		teclado.nextLine();
 		return numEmple;
@@ -133,9 +134,10 @@ public class PrimaMainMetodos {
 		 * Variable de tipo cadena al que se le asignará un nombre de empleado.
 		 */
 		String nomEmple;
+		//Bucle que repetirá el procedimiento si el nombre introducido tiene más de 10 caracteres.
 		do {
 			System.out.println("NOMBRE (max 10 caracteres): ");
-			nomEmple = teclado.nextLine();
+			nomEmple = teclado.nextLine();//Asignación del nombre introducido por teclado
 		} while (nomEmple.length() > 10);
 		return nomEmple;
 	}
@@ -152,9 +154,10 @@ public class PrimaMainMetodos {
 		 * empleado.
 		 */
 		int meses;
+		//Bucle que repetirá el procedimiento mientras se introduzcan meses inferiores a 0
 		do {
 			System.out.println("MESES DE TRABAJO: ");
-			meses = teclado.nextInt();
+			meses = teclado.nextInt(); //Asignación de los meses de antigüedad introducidos por teclado
 		} while (meses < 0);
 		teclado.nextLine();
 		return meses;
@@ -167,7 +170,7 @@ public class PrimaMainMetodos {
 	 * 		<li> - si no es directivo.</li>
 	 * 	</ul>
 	 * 
-	 * @return devuelve el valor de la categoría asignada.
+	 * @return devuelve el valor de la categoría asignada (Directivo o no)
 	 */
 	public static char leerEsDirectivo() {
 		/**
@@ -175,9 +178,10 @@ public class PrimaMainMetodos {
 		 * empleado.
 		 */
 		char esDirectivo;
+		//Bucle que repetirá el procedimiento mientras se introduzca algo distinto a + (Directivo) o a - (no es Directivo)
 		do {
 			System.out.println("¿ES DIRECTIVO? (+/-): ");
-			esDirectivo = teclado.nextLine().charAt(0);
+			esDirectivo = teclado.nextLine().charAt(0); // Asignación de la introducción por teclado + o -
 		} while (esDirectivo != '+' && esDirectivo != '-');
 		return esDirectivo;
 	}
